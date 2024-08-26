@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="./assets/logo-alura.svg" alt="Logo da alura">
+    </header>
+    <main class="container">
+        <div class="caixa-texto">
+            <form>
+                <textarea class="paraCriptografar"></textarea>
+                <h2>Digite o texto</h2>
+                <div class="alerta">
+                    <img src="./assets/circle.svg" alt="circulo de atencao">
+                    <p>Apenas letras minúsculas e sem acento.</p>
+                </div>
+                <div class="buttons">
+                    <button type="submit" id="criptografar">Criptografar</button>
+                    <button type="submit" id="descriptografar">Descriptografar</button>
+                </div>
+            </form>
+        </div>
+        <div class="retangulo">
+            <img src="./assets/design-busca.svg" class="retangulo_img">
+            <h2 class="info_h2">Nenhuma mensagem encontrada</h2>
+            <p class="info_p">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            <p class="texto"></p>
+            <button class="copiar" id="copiar">Copiar</button>
+        </div>
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por <a href="https://github.com/ViniciusG03" target="_blank">Vinicius G.</a></p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
